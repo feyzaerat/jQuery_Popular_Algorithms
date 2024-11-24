@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=MonteCarlo&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Twinkle+Star&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=MonteCarlo&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Stylish&family=Twinkle+Star&display=swap');
+:root {
+  --font-title: "Twinkle Star", cursive;
+  --font-text:"Stylish", serif;
+  --bg-color: #ebebed;
+  --title-color:#303641;
+  --text-color:#7a8a8a;
+  --focus-color:#6D808C;
+  --white-color:#FEFEFE;
+  --primary-color:#94A69B;
+  --secondary-color:#f2eadf;
+  --success-color:#9cbcb7;
+  --warning-color:#f9c851;
+  --danger-color:#a11d19;
+  --info-color:#b0e0e6;
+  --beige-color:#fffaf0;
+  --gray-color:#a5aaab;
+  --purple-color:#8683a6;
+  --primary-hover-color:#9AB2A2;
+
+}
