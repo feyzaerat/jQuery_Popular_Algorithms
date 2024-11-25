@@ -24,6 +24,33 @@
       ></div>
       <div class="container container__content">
         <div class="card">
+          <p class="card__title">Sorting Numbers</p>
+          <input
+            id="sortingNumbersInput"
+            class="card__input"
+            type="text"
+            placeholder="Enter the numbers you want to query, separated by commas."
+          />
+          <div class="row__button">
+            <button
+              id="sortingNumbersSubmit"
+              class="card__button button__result"
+              type="button"
+            >
+              <i class="fa-regular fa-eye"></i> Look
+            </button>
+            <button class="card__button button__clear" type="button">
+              <i class="fa-solid fa-eraser"></i> Clear
+            </button>
+          </div>
+          <div class="row__result">
+            <p id="sortingNumbersResult" class="row__result__result d-none"></p>
+            <small class="row__result__description"
+              >The numbers are arranged from smallest to largest..</small
+            >
+          </div>
+        </div>
+        <div class="card">
           <p class="card__title">Find Even Numbers</p>
           <input
             id="evenNumbersInput"
@@ -44,10 +71,9 @@
             </button>
           </div>
           <div class="row__result">
-            <p id="evenNumbersResult" class="row__result__result"></p>
-            <small class="row__result__description"
-              >Numbers that are divisible by 2 are even numbers.</small
-            >
+            <p id="evenNumbersResult" class="row__result__result d-none"></p>
+            <small class="row__result__description">Numbers that are divisible by 2 are even numbers.</small>
+            
           </div>
         </div>
       </div>

@@ -197,4 +197,8 @@ small {
 
 .title {
   color: var(--title-color);
+}
+
+.d-none {
+  display: none;
 }/*# sourceMappingURL=style.css.map */
