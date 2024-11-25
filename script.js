@@ -8,14 +8,10 @@ $(document).ready(function () {
 
   /* ALERT POPUP */
   function showAlert(message) {
-    // Mesajı ayarla
     $("#alertMessage").text(message);
-  
-    // Modal'ı göster
     $("#customAlert").removeClass("hidden");
   }
   
-  // Kapatma butonuna tıklandığında modal'ı gizle
   $("#alertClose").click(function () {
     $("#customAlert").addClass("hidden");
   });
