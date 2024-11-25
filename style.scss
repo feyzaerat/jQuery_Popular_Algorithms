@@ -151,7 +151,7 @@ body::-webkit-scrollbar {
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            gap: 0.5rem;
+            gap: 0.25rem;
             background: var(--secondary-color);
             padding: 0.5rem;
             width: 500px;
@@ -159,7 +159,7 @@ body::-webkit-scrollbar {
             box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
             &__result {
               font-weight: 500;
-              font-size: 28px;
+              font-size: 26px;
               color: var(--gray-color);
               &:hover {
                 transition: 0.3s ease-in-out;
